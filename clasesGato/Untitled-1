@@ -1,0 +1,43 @@
+/* Objetivos: Crear una pajareria
+   Datos: Las variables globales necesarias ya aparecen en este archivo.
+ */
+
+/*  Pasos a seguir:
+    1. Nueva clase
+        - Crear una clase PajaroClass que here de AnimalClass
+        - Tendrá dos nuevas propiedades: color y alas.
+        - Podrá realizar 3 acciones: volar, planear y cazar.
+        - Las propiedades no tendran valor por defecto.
+        - Planear logueara en consola: "soy capaz de planear".
+        - Cazar logueara dos cosas en consola: `Soy un "especie" y puedo cazar gatos`
+          Y en otra linea de consola: "Aqui trendria que ir la logica de destruir un gato."
+        - Volar de momento estará vacio.
+    
+    2. Definir la funcion crearPajaro.
+        - Se creara de la misma forma que hemos creado los otros animales.
+    
+    3. Definir la funcion nuevoPajaro.
+        - Creara un pajaro.
+        - Ese pajaro va a planear.
+    
+    4. Definir la funcion crearPajareria.
+        - Objetivo global: crear una pajareria.
+        - Aqui empieza a complicarse la logica. Tomaros un tiempo para pensar como hacerlo
+        - Hay que buscar una forma de recorrer todos los elementos y crear un pajaro con la informacion dada.
+        - Despues de crear la pajareria, logear el valor de la pajareria para comprobar que al llamar la funcion se rellena todos los datos.
+        - Consejo: Al acabar la funcion devolver el valor de la pajareria.
+    
+    5. Definir la funcion nuevaPajareria.
+        - Aqui hay que usar los datos definidos en las variables globales.
+        - Hay que crear una pajareria y guardar el valor en una variable.
+        - El ultimo elemento de la pajareria va realizar la accion de cazar.
+    
+    6. Hay que obligar a que todos los pajaros vuelen, aunque sus datos digan lo contrario.
+        - La logica y llegar a resolver este problema puede ser lo mas compicado.
+        - Pista: aqui hay que modificar el metodo volar de la clase pajaroClass.
+        - Pista2: El codigo a modificar son dos lineas, pero hay que saber que dos lineas tocar.
+        - Si no sabeis resolver este problema no me importa, porque es muy avanzado.
+    
+    7. Fin.
+
+*/
