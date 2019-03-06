@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animalitos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Animalitos de Codenotch</h1>
+    <label>Especie Animal</label><input id="especielAnimal" placeholder="Introduce la especie"> <br>
+    <label>Numero de Patas</label><input id="numeroPatas" placeholder="Introduce el numero de patas">  <br>
+    <label>Tipo de Grito</label><input id="tipoGrito" placeholder="Introduce la especie">  <br>
+    <label>¿Puede volar?</label><input type="checkbox" id="puedeVolar">  <br>
+
+    <button onclick="nuevoAnimal(especielAnimal, numeroPatas, tipoGrito, puedeVolar);">Nuevo animalito</button> <br>
+    <h1>Crear un super gato</h1>
+    <button onclick="nuevoGato('Gato Volador', 4, 'miau', false, 'blanco', 20);">Nuevo supergato</button>
+
+    <h1>Crear una pajareria</h1>
+    <button onclick="nuevaPajareria();">Nueva pajareria</button>
+
+</body>
+</html>
